@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+
+
+
+
+
+
+/**********************ABOUT SECTION**********************/
+
+
+.heading{
+    font-size: 4rem;
+    color: var(--green);
+    text-align: center;
+    padding: 0 1rem;
+    padding-top: 6rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+}
+
+.title{
+    padding: 0 1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    color: #666;
+}
+
+.about .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .row .image img{
+    height: 70vh;
+    width: 50vw;
+}
+
+.about .row .content{
+    padding-left: 5rem;
+}
+
+.about .content .row h3{
+    font-size: 3rem;
+    color:var(--green);
+}
+
+.about .content .row p{
+    font-size: 1.6rem;
+    color: #666;
+padding: 1rem 0;
+}
+
+.about .content .row button{
+    height: 3.5rem;
+    width: 17rem;
+    background: var(--aqua);
+    color: #ffff;
+    border: none;
+    border-radius: 5rem;
+    box-shadow: 0 .3rem 1rem #000;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: .2s;
+}
+
+.about .content .row button:hover{
+    opacity: .8;
+    letter-spacing: .2rem;
+}

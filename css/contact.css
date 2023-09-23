@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+
+
+
+/*************************SECTION CONTACT**********************/
+
+.contact{
+    background: #333;
+}
+
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.contact .row .image img{
+    width: 50vh;
+    height: 70vh;
+}
+
+.contact .row .form-container{
+     width: 50%;
+     padding-right: 6rem;
+}
+
+.contact .row .form-container input, textarea{
+  height: 4rem;
+  width: 100%;
+  background:#fff;
+  border: none;
+  border-radius: 5rem;
+  padding: 0 1rem;
+  margin: 1rem 0;
+  color: var(--green);
+  font-size: 1.7rem;
+  transition: .2s linear;
+}
+
+.contact .row .form-container  textarea{
+    height: 20rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    resize: none;
+}
+
+.contact .row .form-container input:focus, textarea:focus{
+border: 2rem solid var(--aqua);
+}
+
+.contact .row .form-container input[type="sumbit"]{
+    width: 17rem;
+    background-color: var(--green);
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: .2s;
+}
+
+.contact .row .form-container input[type="sumbit"]:hover{
+    background: none;
+    color: var(--green);
+    border: .2rem solid var(--aqua);
+}

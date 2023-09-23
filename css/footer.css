@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+
+
+
+
+/*************************SECTION FOOTER**********************/
+
+
+.footer{
+    text-align: center;
+}
+
+.footer .icons{
+    padding: 3rem 0;
+}
+
+.footer .icons a{
+height: 4.5rem;
+width: 4.5rem;
+line-height: 4.2rem;
+text-align: center;
+border-radius: 50%;
+color: var(--green);
+border: .2rem solid var(--aqua);
+font-size: 2rem;
+margin: 0 .1rem;
+transition: .2s linear;
+}
+
+.footer .icons a:hover{
+    color: #fff;
+    background: var(--green);
+    border-color: var(--green);
+}
+
+.footer .credit{
+    font-size: 2rem;
+    border-top: .1rem solid #999;
+    padding: 1rem 0;
+    width: 90%;
+    color: #666;
+    margin-bottom: 2rem;
+    margin: 0 auto;
+}
+
+.footer .credit span{
+    color: var(--aqua);
+}
+
+
