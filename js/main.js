@@ -55,3 +55,5 @@ inputEl.addEventListener("input", () => {
 function updateLocalStorage() {
     localStorage.setItem("mode", JSON.stringify(inputEl.checked));
 }
+
+

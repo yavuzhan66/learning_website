@@ -45,21 +45,5 @@
     resize: none;
 }
 
-.contact .row .form-container input:focus, textarea:focus{
-border: 2rem solid var(--aqua);
-}
 
-.contact .row .form-container input[type="sumbit"]{
-    width: 17rem;
-    background-color: var(--green);
-    color: #fff;
-    cursor: pointer;
-    font-size: 2rem;
-    transition: .2s;
-}
 
-.contact .row .form-container input[type="sumbit"]:hover{
-    background: none;
-    color: var(--green);
-    border: .2rem solid var(--aqua);
-}
